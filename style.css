@@ -1,0 +1,13 @@
+.comment{
+    padding:12px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin:3px;
+    background-color: rgb(210, 252, 198);
+}
+.gray{
+    color: rgb(182, 182, 182);
+}
+.vowel{
+    font-size: 18px;
+}
