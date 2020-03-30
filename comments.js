@@ -30,13 +30,13 @@ fetch(youtubeVideoUrl)
                             // console.log(commentThread.snippet.topLevelComment.snippet.textDisplay);
                             let comment = commentThread.snippet.topLevelComment.snippet.textDisplay.split("");
                             comment.forEach((char, i) => {
-                                if (!vowels.includes(char) && char != " "){
-                                    // comment[i] = "<span class='gray'>"+ char + "</span>";
-                                    comment[i] = "<span class='gray'>"+ char + "</span>";
-                                } else {
-                                    comment[i] = "<span class='vowel'>"+ char + "</span>";
+                                // if (!vowels.includes(char) && char != " "){
+                                //     // comment[i] = "<span class='gray'>"+ char + "</span>";
+                                //     comment[i] = "<span class='gray'>"+ char + "</span>";
+                                // } else {
+                                //     comment[i] = "<span class='vowel'>"+ char + "</span>";
 
-                                }
+                                // }
                                 console.log(comment);
                             })
                             comment = comment.join("");
